@@ -307,7 +307,9 @@ class Timelord:
             log.info(f"Mapping free vdf_client with chain: {picked_chain}.")
             self.process_communication_tasks.append(
                 asyncio.create_task(
-                    self._do_process_communication(picked_chain, challenge, initial_form, ip, reader, writer, proof_label=self.num_resets)
+                    self._do_process_communication(
+                        picked_chain, challenge, initial_form, ip, reader, writer, proof_label=self.num_resets
+                    )
                 )
             )
 
