@@ -5,7 +5,7 @@ dependencies = [
     "blspy==1.0",  # Signature library
     "chiavdf==1.0.1",  # timelord and vdf verification
     "chiabip158==1.0",  # bip158-style wallet filters
-    "chiapos==chiapos@https://github.com/Chia-Network/chiapos/tarball/main#egg=headrev",  # proof of space
+    "chiapos==chiapos@https://github.com/Chia-Network/chiapos/tarball/main#egg=09206196df93e2a3619df702bcd751c413ec96cd",  # proof of space
     "clvm==0.9.4",
     "clvm_rs==0.1.4",
     "clvm_tools==0.4.3",
